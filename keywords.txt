@@ -6,7 +6,7 @@
 # Library (KEYWORD3)
 #######################################
 
-AES32 KEYWORD3
+AES32	KEYWORD3
 
 #######################################
 # Datatypes (KEYWORD1)
