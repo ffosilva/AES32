@@ -1,11 +1,11 @@
-#include <AES32.h>
-
 /*
  * ESP32 AES Hardware Encryption
  * Enable the use of built-in AES hardware capabilities
  *
  * Author: Fábio Silva
  */
+
+#include <AES32.h>
 
 AES32::AES32() {
     esp_aes_init(&this->context);
