@@ -5,8 +5,7 @@
  * Author: Fábio Silva
  */
 
-#ifndef AES32_h
-#define AES32_h
+#pragma once
 
 #include <Arduino.h>
 #include <hwcrypto/aes.h>
@@ -221,5 +220,3 @@ class AES32
     private:
         esp_aes_context context;
 };
-
-#endif
