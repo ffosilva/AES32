@@ -69,6 +69,7 @@ void print_key(uint8_t *key, int key_length) {
 
 void setup() {
   Serial.begin(115200);
+  aes32.setKey(aes_key, 128);
 }
 
 void loop() {
